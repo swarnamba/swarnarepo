@@ -1,0 +1,9 @@
+FROM centos
+WORKDIR /tmp
+RUN echo "Hi Sai" > /tmp/rahulfile
+ENV myname hari
+COPY rajfile /tmp
+ADD demo.tar.gz /tmp
+
+
+
